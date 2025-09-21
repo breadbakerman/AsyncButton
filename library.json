@@ -1,0 +1,58 @@
+{
+  "name": "AsyncButton",
+  "version": "1.0.0",
+  "description": "Non-blocking button control library for Arduino with support for multiple buttons, various press patterns, and advanced features like button mapping and customizable callbacks",
+  "keywords": [
+    "button",
+    "input",
+    "debounce",
+    "non-blocking",
+    "async",
+    "ui",
+    "interface",
+    "mapping",
+    "callback",
+    "press-patterns"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breadbakerman/AsyncButton.git"
+  },
+  "authors": [
+    {
+      "name": "breadbaker",
+      "email": "breadbaker@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/breadbakerman/AsyncButton",
+  "frameworks": ["arduino"],
+  "platforms": [
+    "atmelavr",
+    "atmelsam"
+  ],
+  "examples": [
+    {
+      "name": "Basic",
+      "base": "examples/Basic",
+      "files": ["Basic.ino"]
+    },
+    {
+      "name": "Multiple",
+      "base": "examples/Multiple",
+      "files": ["Multiple.ino"]
+    },
+    {
+      "name": "Mapping",
+      "base": "examples/Mapping",
+      "files": ["Mapping.ino"]
+    }
+  ],
+  "export": {
+    "exclude": [
+      ".github",
+      ".gitignore"
+    ]
+  }
+}
